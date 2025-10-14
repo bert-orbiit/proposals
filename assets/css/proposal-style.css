@@ -1,0 +1,485 @@
+/* Professional Proposal Styling for askthehuman.com */
+/* Clean, modern design optimized for PDF output */
+
+@page {
+  margin: 0.75in;
+  size: letter;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #1e293b;
+  background: #ffffff;
+  padding: 0;
+}
+
+.document-content {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header with Logo */
+.header-logo {
+  text-align: left;
+  padding: 1.5rem 0 1rem 0;
+  margin-bottom: 2rem;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #2563eb;
+}
+
+.header-logo img {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #0f172a;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+h1 {
+  font-size: 2.25rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #0f172a;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1e40af;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs and Text */
+p {
+  margin-bottom: 1rem;
+  color: #334155;
+  line-height: 1.6;
+}
+
+strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+thead {
+  background: #f8fafc;
+}
+
+th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: #0f172a;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+  color: #334155;
+}
+
+tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* Metadata Box */
+.meta-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background: #f8fafc;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  margin: 1.5rem 0;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.meta-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.meta-value {
+  font-size: 1rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+/* Callout Boxes */
+.callout {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.callout.warning,
+.warning-box {
+  background: #fef3c7;
+  border-left-color: #f59e0b;
+}
+
+.callout.success,
+.success-box {
+  background: #f0fdf4;
+  border-left-color: #10b981;
+}
+
+.callout.info,
+.info-box {
+  background: #eff6ff;
+  border-left-color: #2563eb;
+}
+
+/* Phase Boxes */
+.phase-box {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.phase-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.phase-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.phase-duration {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.phase-gate {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #92400e;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  display: inline-block;
+}
+
+/* Investment Section */
+.investment-box {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border: 2px solid #2563eb;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.investment-amount {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 0.5rem;
+}
+
+/* Horizontal Rules */
+hr {
+  border: none;
+  border-top: 2px solid #e2e8f0;
+  margin: 2em 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #2563eb;
+  padding-left: 1em;
+  margin-left: 0;
+  color: #555;
+  font-style: italic;
+  background-color: #f8fafc;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+/* Code/Technical Terms */
+code {
+  background: #f1f5f9;
+  padding: 0.125rem 0.375rem;
+  border-radius: 0.25rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.875em;
+  color: #1e40af;
+}
+
+pre {
+  background-color: #f8fafc;
+  padding: 1em;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  border: 1px solid #e2e8f0;
+  margin: 1em 0;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Signature Section */
+.signature-section {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e2e8f0;
+  page-break-before: avoid;
+  break-before: avoid;
+}
+
+.signature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.signature-block {
+  border: 2px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  background: #f8fafc;
+}
+
+.signature-label {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.signature-line {
+  border-bottom: 2px solid #cbd5e1;
+  margin: 1rem 0;
+  min-height: 60px;
+}
+
+.signature-field {
+  font-size: 0.875rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #e2e8f0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #64748b;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Page Breaks */
+.page-break {
+  page-break-after: always;
+  break-after: page;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cover Page Styling */
+.cover-page {
+  text-align: center;
+  padding: 4in 1in;
+  min-height: 9in;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  page-break-after: always;
+  break-after: page;
+}
+
+.cover-page h1 {
+  font-size: 36pt;
+  color: #0f172a;
+  margin-bottom: 2in;
+  font-weight: 700;
+  line-height: 1.2;
+  border: none;
+}
+
+.cover-page p,
+.cover-page strong {
+  font-size: 14pt;
+  margin: 0.25in 0;
+  color: #64748b;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    padding: 0;
+  }
+
+  .document-content {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .phase-box,
+  .callout,
+  .investment-box,
+  .signature-section,
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .page-break {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+/* Checkmarks and Icons */
+.checkmark {
+  color: #10b981;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.xmark {
+  color: #ef4444;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+/* Acronym styling */
+.acronym {
+  font-weight: 600;
+  color: #1e40af;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+/* Title section for document header */
+.title-section {
+  margin-bottom: 3rem;
+}
+
+.title-section h1 {
+  margin-top: 0;
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  text-align: center;
+  margin: 2rem 0;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+pre.mermaid {
+  background: transparent;
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "askthehuman-proposals",
+  "version": "1.0.0",
+  "description": "Professional proposal system for askthehuman.com consulting business",
+  "scripts": {
+    "build": "node scripts/build-proposals.js",
+    "build:all": "node scripts/build-proposals.js --all",
+    "watch": "node scripts/build-proposals.js --watch"
+  },
+  "keywords": ["proposals", "consulting", "pdf"],
+  "author": "askthehuman.com",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "marked": "^9.1.0",
+    "puppeteer": "^22.0.0",
+    "mermaid": "^10.6.0"
+  }
+}
