@@ -67,7 +67,56 @@ Each submission package includes a `SUBMISSION_RECORD.md` with:
 
 ## Usage
 
-### Creating a New Submission Package
+### Automated Submission Package Creation (Recommended)
+
+Use the automated script to create submission packages:
+
+```bash
+npm run submit proposals/client-sow.md
+```
+
+The script will:
+
+1. **Detect files automatically:**
+   - Source markdown: `proposals/client-sow.md`
+   - PDF: `output/client-sow.pdf` (if exists)
+   - Analysis: `proposal_analysis/client-sow-analysis.md` (if exists)
+
+2. **Prompt for metadata interactively:**
+   - Client name → generates folder name automatically
+   - Submission date (defaults to today)
+   - Email details (to/cc/subject/date-time)
+   - Opportunity details (name/value/duration/phase3)
+   - Optional: Proposal score, expected timeline, notes
+
+3. **Create complete package:**
+   - `submitted/[client-name]-[YYYY-MM-DD]/`
+   - Copies all files automatically
+   - Generates `SUBMISSION_RECORD.md` with all metadata
+   - Auto-extracts proposal score from analysis file (if exists)
+
+4. **Post-script steps:**
+   - Edit `SUBMISSION_RECORD.md` to fill in email summary section
+   - Update **Active Submissions** table (above)
+   - Commit to git as instructed by script output
+
+**Example workflow:**
+
+```bash
+# 1. Build the proposal PDF
+npm run build proposals/acme-sow.md
+
+# 2. Create submission package (interactive prompts)
+npm run submit proposals/acme-sow.md
+
+# 3. Edit the generated SUBMISSION_RECORD.md to add email summary
+# 4. Update Active Submissions table in this README
+# 5. Commit as instructed
+```
+
+### Manual Submission Package Creation
+
+If you prefer manual creation or the script fails:
 
 1. **Create folder:**
    ```bash

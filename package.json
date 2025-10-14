@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node scripts/build-proposals.js",
     "build:all": "node scripts/build-proposals.js --all",
-    "watch": "node scripts/build-proposals.js --watch"
+    "watch": "node scripts/build-proposals.js --watch",
+    "submit": "node scripts/submit-proposal.js"
   },
   "keywords": ["proposals", "consulting", "pdf"],
   "author": "askthehuman.com",
