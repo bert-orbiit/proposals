@@ -91,6 +91,13 @@ p {
   line-height: 1.6;
 }
 
+/* Checkmark paragraphs - prevent wrapping */
+p:has(strong:first-child) {
+  display: block;
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
 strong {
   color: #0f172a;
   font-weight: 600;

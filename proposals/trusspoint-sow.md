@@ -320,7 +320,7 @@ Phase 3 pricing and scope determined after Phase 2 delivery based on your strate
 
 - Data aggregation from 15-20 sources
 - AI-driven market analysis and modeling
-- Primary deliverable (format To Be Determined (TBD) in Phase 1)
+- Primary deliverable (format determined in Phase 1)
 - Methodology documentation
 - Signal Dashboard (live project tracking)
 - Phase 3 scoping and recommendations
@@ -478,16 +478,17 @@ Throughout engagement, client has access to:
 
 ### Export Capabilities:
 
+- HTML reports (print to PDF for executive distribution)
 - Markdown reports for internal sharing
 - CSV task lists for tracking
 - JSON data for integrations
 
 ### Why This Matters:
 
-✓ No surprise status requests  
-✓ Real-time visibility into progress  
-✓ Data-driven discussions vs. "how's it going?"  
-✓ Professional transparency that builds trust
+- ✓ No surprise status requests
+- ✓ Real-time visibility into progress
+- ✓ Data-driven discussions vs. "how's it going?"
+- ✓ Professional transparency that builds trust
 
 ---
 
@@ -498,6 +499,20 @@ Throughout engagement, client has access to:
 - **Work stoppage:** If payment >30 days overdue, work pauses until current
 - **Phase gates:** Phase 2 cannot begin until Phase 1 is paid and accepted
 - **Travel expenses:** Invoiced separately upon completion of trip (net 15)
+
+---
+
+## Confidentiality & Liability
+
+**Mutual Confidentiality:** Both parties agree to maintain confidentiality of proprietary information shared during this engagement. Client data, analysis methods, and business strategies will not be disclosed to third parties.
+
+**Limitation of Liability:** Ask the Human LLC's total liability under this SOW shall not exceed the total fees paid under this agreement. Neither party shall be liable for indirect, incidental, or consequential damages.
+
+**Data Retention:** Client data will be securely deleted within 90 days of engagement completion unless ongoing service (Phase 3 retainer) is retained or client requests extended retention in writing.
+
+**Force Majeure:** Neither party shall be liable for delays or failures in performance due to circumstances beyond reasonable control, including illness, family emergencies, natural disasters, or governmental actions. Affected party will notify the other promptly and make reasonable efforts to mitigate impact.
+
+**Timeline SLA:** If timeline extends beyond stated duration for reasons within vendor's control, monthly billing continues but client may pause work with 48 hours notice. No refunds for completed work.
 
 ---
 
@@ -585,13 +600,13 @@ gantt
 
 ## Why This Structure Works
 
-✓ **Low initial commitment** (~$16K for Phases 1-2 vs. $40K+ competitors)
-✓ **AI acceleration** delivers 2-3x faster than traditional consultants without quality sacrifice
-✓ **Monthly cadence** aligns with typical budget cycles
-✓ **Flexibility** to pivot after Phase 1 findings or extend to ongoing support
-✓ **Transparency** via Signal Dashboard (no status meeting overhead)
-✓ **Clear scope** with revision limits and change order process
-✓ **Local accessibility** (Franklin/Nashville meetings included)
+- ✓ **Low initial commitment** (~$16K for Phases 1-2 vs. $40K+ competitors)
+- ✓ **AI acceleration** delivers 2-3x faster than traditional consultants without quality sacrifice
+- ✓ **Monthly cadence** aligns with typical budget cycles
+- ✓ **Flexibility** to pivot after Phase 1 findings or extend to ongoing support
+- ✓ **Transparency** via Signal Dashboard (no status meeting overhead)
+- ✓ **Clear scope** with revision limits and change order process
+- ✓ **Local accessibility** (Franklin/Nashville meetings included)
 
 ---
 
