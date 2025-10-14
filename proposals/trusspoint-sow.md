@@ -12,7 +12,7 @@ United States
 
 ---
 
-**Client:** Truss Point Roofing & Exteriors  
+**Client:** TrussPoint Roofing & Exteriors  
 **Prepared:** October 13, 2025  
 **Engagement Type:** Discovery + Research  
 **Document Version:** 1.0
@@ -21,7 +21,12 @@ United States
 
 ## Executive Summary
 
-Truss Point seeks to systematize greenfield market expansion through Artificial Intelligence (AI)-powered analysis, targeting 6-9x valuation improvement via repeatable site selection methodology. This engagement delivers strategic market intelligence and decision frameworks—with execution approach determined by discovery findings.
+TrussPoint seeks to systematize greenfield market expansion through Artificial Intelligence (AI)-powered analysis, as stated by TrussPoint leadership, targeting a potential 6–9× valuation improvement via a repeatable site selection methodology. This engagement delivers strategic market intelligence and decision frameworks—with execution approach determined by discovery findings.
+
+### About Ask the Human
+
+**Ask the Human operates as an AI-accelerated builder studio.**
+Where traditional consultants analyze and advise, we build intelligent systems that execute. Every engagement blends strategic insight with hands-on creation—leveraging AI not to replace thinking, but to compress the time between concept and build. The consulting and analysis frameworks exist to ensure what we build is directionally correct, measurable, and ready to scale.
 
 ### Engagement Flow
 
@@ -172,6 +177,8 @@ graph TD
 - Competitive landscape web intelligence
 - Scenario modeling & sensitivity analysis
 
+Analysis is conducted using a Python-based aggregation pipeline with AI models (OpenAI / Claude) for synthesis, reviewed by human analysts before delivery.
+
 **AI Acceleration Advantage:** Traditional consultants require 8-12 weeks for this analysis. AI-powered automation delivers equivalent depth in 3-5 weeks while processing exponentially more data points. This speed advantage translates directly to competitive positioning—enter high-opportunity markets before competitors identify them.
 
 ### Deliverable: Format Determined in Phase 1
@@ -233,15 +240,25 @@ graph TD
 
 - Methodology documentation
 - Data source bibliography
-- Validation against historical performance
-- Signal Dashboard for project transparency
+- Validation against historical performance (findings are cross-checked against prior market outcomes to confirm directional accuracy before final reporting)
+- **Signal Dashboard** for project transparency
 - Phase 3 recommendation with scoping
 
 **Hours Included:** 40-60 hours (scope adjusts based on Phase 1 findings)
 
 ---
 
+| Phase | Deliverable | Duration | Acceptance Gate |
+|-------|-------------|----------|-----------------|
+| 1 | **Discovery Report** + Scope Recommendation | 2–3 weeks | Discovery Report Acceptance |
+| 2 | **Market Intelligence** Deliverable (format TBD) | 3–5 weeks | Deliverable Acceptance |
+| 3 | Ongoing Intelligence / Handoff (optional) | TBD | Separate SOW Agreement |
+
+---
+
 ## Phase 3: Ongoing Support Options (Optional)
+
+Ownership of client-specific data and deliverables remains with TrussPoint; proprietary AI frameworks and the Signal platform remain with Ask the Human LLC (per IP terms below).
 
 Phase 3 options are discussed after Phase 2 delivery based on your needs. The infrastructure built in Phases 1-2 enables several paths forward.
 
@@ -274,10 +291,10 @@ Phase 3 pricing and scope determined after Phase 2 delivery based on your strate
 | Service | Rate | Notes |
 |---------|------|-------|
 | **Phase 1-2 Monthly Retainer** | $8,000/month | Covers all discovery, analysis, deliverables, and weekly calls |
-| **Phase 3 Ongoing Retainer** | $4,000-6,000/month | Market monitoring, alerts, quarterly updates (optional) |
 | **Travel Day Rate** | Included in monthly retainer | Applies when traveling for on-site sessions |
 | **Local Meetings** | No charge | Franklin/Nashville area |
 | **Travel Expenses** | At cost | Non-local only: airfare, hotel, ground transport, meals |
+| **Phase 3 Services** | TBD | Separate SOW/retainer negotiated after Phase 2 delivery |
 
 ### Two-Phase Commitment (Discovery + Research)
 
@@ -287,7 +304,7 @@ Phase 3 pricing and scope determined after Phase 2 delivery based on your strate
 **Payment Schedule:**
 - **Month 1:** $8,000 (due upon signature, covers Phase 1)
 - **Month 2:** $8,000 (due start of Phase 2)
-- **Month 3 (if needed):** Pro-rated: $8,000 × (days in month 3 / 30)
+- **Month 3 (if needed):** Prorated: $8,000 × (days in month 3 / 30)
 
 ### Travel Cost Transparency
 
@@ -396,13 +413,13 @@ Alert at hour 40 with options:
 ### Client Owns:
 
 - All deliverables (reports, models, analysis)
-- Data specific to Truss Point business
+- Data and deliverables specific to TrussPoint
 - Market intelligence findings
 
 ### Vendor Retains:
 
-- Proprietary AI methodologies and processes
-- General frameworks and code libraries
+- Proprietary AI frameworks, code libraries, and the Signal automation platform
+- General methodologies and processes
 - Right to reuse approaches for other clients (non-competitive)
 
 ### Restrictions:
@@ -422,7 +439,7 @@ Alert at hour 40 with options:
 ### Client Commits To:
 
 - Provide historical performance data within 5 business days of Phase 1 start
-- Data in usable electronic format (Excel (XLS), Comma-Separated Values (CSV), database export)
+- Data in usable electronic format (Excel (.xlsx/.xls), Comma-Separated Values (.csv), database export)
 - Stakeholder availability for scheduled on-site sessions
 - Timely feedback on deliverables (5 business days review period)
 
@@ -514,6 +531,8 @@ Throughout engagement, client has access to:
 
 **Timeline SLA:** If timeline extends beyond stated duration for reasons within vendor's control, monthly billing continues but client may pause work with 48 hours notice. No refunds for completed work.
 
+**Governing Law:** This Agreement is governed by the laws of Tennessee. Both parties agree to attempt good-faith mediation before any legal action.
+
 ---
 
 ## Key Assumptions
@@ -589,12 +608,12 @@ gantt
 ## Next Steps
 
 1. **Review & approve** this SOW
-2. **Choose discovery format:** On-site (preferred) or Zoom
+2. **Choose discovery format:** On-site (preferred) or remote via Zoom
 3. **Confirm leadership availability** for discovery sessions (1-2 day block)
 4. **Identify data owner** for historical performance access
 5. **Sign contract** and remit first monthly retainer ($8,000)
 6. **Schedule kickoff** within 48 hours of signature (in-person preferred)
-7. **Coordinate travel** if on-site selected
+7. **Coordinate travel** if non-local on-site selected
 
 ---
 
@@ -612,7 +631,7 @@ gantt
 
 ## Authorized Signatures
 
-### Client: Truss Point Roofing & Exteriors
+### Client: TrussPoint Roofing & Exteriors
 
 **Name:** _________________________________
 
