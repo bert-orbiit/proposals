@@ -22,7 +22,7 @@
 
 ### CC Recipients
 - Bill Walker - bill@workflowinnovators.com
-- ms@planleft.com
+- Matt Smith - ms@planleft.com
 
 ### Email Subject
 "Greenfield Market Intelligence SOW - Ready for Review"
