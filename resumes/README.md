@@ -40,8 +40,9 @@ Professional resume materials for Bert Carroll, updated October 2025.
 - `Strategic_Positioning_Not_A_Software_Engineer.md` - AI-native development positioning
 
 ### Archive
-- `Bert Carroll resume 20240822 (1).pdf` - Previous version
-- `Profile (1).pdf` - LinkedIn export
+See `archive/` folder for previous versions:
+- `archive/Bert Carroll resume 20240822 (1).pdf` - Previous resume (August 2024)
+- `archive/Profile (1).pdf` - LinkedIn export
 
 ---
 
