@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert "Bert" Carroll - Comprehensive Resume</title>
+    <style>
+        /* ============================================
+           COMPREHENSIVE RESUME - PROFESSIONAL CSS
+           ============================================ */
+
+        /* Base Typography & Colors */
+        :root {
+            --primary-color: #1a5490;
+            --secondary-color: #2c5f8d;
+            --accent-color: #4a90e2;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6a6a6a;
+            --border-color: #d0d0d0;
+            --bg-highlight: #f8fafc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+            font-size: 10pt;
+            line-height: 1.4;
+            color: var(--text-dark);
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.4in;
+            background: white;
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                padding: 0.35in;
+                font-size: 9.5pt;
+                line-height: 1.35;
+            }
+
+            .page-break {
+                page-break-before: always;
+            }
+
+            h2, h3, h4 {
+                page-break-after: avoid;
+            }
+
+            .job-header {
+                page-break-inside: avoid;
+            }
+
+            a {
+                color: var(--primary-color);
+                text-decoration: none;
+            }
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.4rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .name {
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+            margin-bottom: 0.15rem;
+        }
+
+        .tagline {
+            font-size: 11pt;
+            color: var(--secondary-color);
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            letter-spacing: 0.3px;
+        }
+
+        .contact {
+            font-size: 9.5pt;
+            color: var(--text-medium);
+            margin-top: 0.15rem;
+        }
+
+        .contact a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        /* Section Headers */
+        h2 {
+            font-size: 13pt;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.2rem;
+            margin-top: 0.7rem;
+            margin-bottom: 0.4rem;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+
+        h3 {
+            font-size: 11pt;
+            color: var(--secondary-color);
+            margin-top: 0.5rem;
+            margin-bottom: 0.25rem;
+            font-weight: 700;
+        }
+
+        h4 {
+            font-size: 10pt;
+            color: var(--secondary-color);
+            margin-top: 0.4rem;
+            margin-bottom: 0.2rem;
+            font-weight: 700;
+        }
+
+        /* Executive Summary */
+        .executive-summary {
+            background: var(--bg-highlight);
+            padding: 0.5rem;
+            border-left: 3px solid var(--accent-color);
+            margin-bottom: 0.6rem;
+            font-size: 9.5pt;
+            line-height: 1.45;
+        }
+
+        .executive-summary p {
+            margin-bottom: 0.35rem;
+        }
+
+        /* Strategic Positioning Box */
+        .strategic-positioning {
+            margin-top: 0.4rem;
+        }
+
+        .strategic-positioning ul {
+            margin-top: 0.2rem;
+        }
+
+        /* Key Differentiators */
+        .key-differentiators {
+            margin-top: 0.4rem;
+        }
+
+        .key-differentiators ul {
+            margin-top: 0.2rem;
+        }
+
+        /* Job Entries */
+        .job-entry {
+            margin-bottom: 0.7rem;
+        }
+
+        .job-header {
+            margin-bottom: 0.3rem;
+        }
+
+        .job-title {
+            font-size: 11pt;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 0.1rem;
+        }
+
+        .job-company {
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+
+        .job-meta {
+            font-size: 9pt;
+            color: var(--text-medium);
+            font-style: italic;
+            margin-bottom: 0.2rem;
+        }
+
+        .job-description {
+            margin-bottom: 0.35rem;
+            font-size: 9.5pt;
+            color: var(--text-medium);
+            line-height: 1.4;
+        }
+
+        /* Subsections within jobs */
+        .subsection-title {
+            font-size: 10pt;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-top: 0.35rem;
+            margin-bottom: 0.2rem;
+        }
+
+        /* Bullet Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 0.2rem;
+            margin-bottom: 0.35rem;
+        }
+
+        li {
+            padding-left: 1.1rem;
+            margin-bottom: 0.15rem;
+            position: relative;
+            font-size: 9pt;
+            line-height: 1.4;
+        }
+
+        li:before {
+            content: "•";
+            position: absolute;
+            left: 0.3rem;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        /* Highlight important metrics */
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        /* Links */
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Separator Lines */
+        hr {
+            border: none;
+            border-top: 1px solid var(--border-color);
+            margin: 0.5rem 0;
+        }
+
+        /* Metrics Box */
+        .metrics {
+            font-size: 9pt;
+            color: var(--text-medium);
+            font-style: italic;
+            margin-top: 0.3rem;
+            padding: 0.35rem;
+            background: var(--bg-highlight);
+            border-left: 2px solid var(--accent-color);
+        }
+
+        /* Tech Stack */
+        .tech-stack {
+            font-size: 9pt;
+            color: var(--text-medium);
+            margin-top: 0.25rem;
+        }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.35rem;
+            margin-top: 0.4rem;
+        }
+
+        .skill-category {
+            font-size: 9pt;
+        }
+
+        .skill-label {
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        .skill-items {
+            color: var(--text-medium);
+        }
+
+        /* Affiliation */
+        .affiliation {
+            font-size: 9pt;
+            margin-bottom: 0.2rem;
+        }
+
+        .affiliation-org {
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 0.35rem;
+            font-size: 9pt;
+        }
+
+        .degree {
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .institution {
+            color: var(--text-medium);
+        }
+
+        .honor {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 8.5pt;
+        }
+
+        /* Awards */
+        .awards {
+            font-size: 9pt;
+        }
+
+        .awards li {
+            margin-bottom: 0.15rem;
+        }
+
+        /* Competencies */
+        .competencies {
+            margin-top: 0.4rem;
+        }
+
+        .competency-item {
+            margin-bottom: 0.25rem;
+            font-size: 9pt;
+        }
+
+        .competency-label {
+            font-weight: 700;
+            color: var(--secondary-color);
+        }
+
+        .competency-details {
+            color: var(--text-medium);
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="name">Robert "Bert" Carroll</div>
+    <div class="tagline">CTO | AI-Native Development | Accelerating Humans</div>
+    <div class="contact">
+        Franklin, TN | 770-605-5410 | bert.carroll@gmail.com<br>
+        <a href="https://www.linkedin.com/in/bertcarroll/">LinkedIn</a> | <a href="https://bertcarroll.ai">bertcarroll.ai</a>
+    </div>
+</div>
+
+<!-- EXECUTIVE SUMMARY -->
+<h2>Executive Summary</h2>
+<div class="executive-summary">
+    <p>Technology executive with 20+ years building scalable systems across Fortune 500 enterprises and startups. Since October 2024, co-founded Orbiit Recovery and pioneered AI-native development methodology achieving <strong>40-50x cost efficiency</strong> vs. traditional teams. Over the past year (October 2024 – Present), sustained high-velocity execution across multiple simultaneous initiatives: production HIPAA platform, co-founded Substance Use Disorder Foundation (SUDF) and created Digital Recovery Standard (DRS) certification (70% SOC 2/HITRUST overlap), fractional CTO practice, AI Archetypes Assessment, weekly podcast (11 episodes published with AI-generated pages and tools), paid speaking engagements, and 10+ website launches. Built <strong>Signal</strong>—a purpose-built project management platform for coordinating human + AI development teams.</p>
+
+    <div class="strategic-positioning">
+        <strong>Strategic Positioning - AI-Native Development:</strong>
+        <ul>
+            <li>Demonstrated that AI-native development methodology doesn't require traditional software engineering background—leverages strategic thinking, architecture knowledge, and AI orchestration to achieve velocity</li>
+            <li>Language-agnostic approach: reads code through AI layer, focuses on system design and business outcomes rather than language-specific implementation details</li>
+            <li>Proof: built production HIPAA platform, created Signal, developed FastAPI tools, and coordinated multiple tech stacks (Django, Astro, FastAPI) simultaneously—all through AI-augmented development</li>
+        </ul>
+    </div>
+
+    <div class="key-differentiators">
+        <strong>Key Differentiators:</strong>
+        <ul>
+            <li><strong>AI-Native Development Infrastructure:</strong> Created Signal to manage distributed AI development teams, achieving sustained 15-20 story points/day velocity (3-4 developer equivalent) with peak performance of 48 points/day</li>
+            <li><strong>Proven Capital Efficiency:</strong> Compressed 6-month development cycles into 3-4 weeks; delivered 200+ story points in 10 weeks with &lt;$500/month operational costs</li>
+            <li><strong>Multi-Initiative Velocity:</strong> Sustained high-velocity output over 12 months across startup co-founding, fractional CTO work, AI assessment development, weekly podcast production, paid speaking, 10+ websites</li>
+            <li><strong>Strategic Technical Leadership:</strong> 23 documented Architecture Decision Records (ADRs) covering security posture, payment architecture, and AI workflow integration—eliminating "CTO as single point of failure" risk</li>
+            <li><strong>Cross-Industry Expertise:</strong> Healthcare (HIPAA), Payments (PCI-DSS), Public Sector, Education—experienced in highly regulated environments</li>
+        </ul>
+    </div>
+</div>
+
+<!-- PROFESSIONAL EXPERIENCE -->
+<h2>Professional Experience</h2>
+
+<!-- Orbiit Recovery -->
+<div class="job-entry">
+    <div class="job-header">
+        <div class="job-title"><span class="job-company">Orbiit Recovery</span> | Co-Founder & CTO</div>
+        <div class="job-meta">October 2024 – Present | Atlanta, GA (Remote)</div>
+    </div>
+
+    <div class="job-description">
+        Co-founded AI-powered SMS-based patient engagement platform serving substance abuse treatment facilities. Architected HIPAA-compliant multi-tenant SaaS platform and pioneered AI-native development methodology achieving industry-leading capital efficiency.
+    </div>
+
+    <h4>AI-Native Development Infrastructure & Leadership</h4>
+    <ul>
+        <li><strong>Created Signal:</strong> Purpose-built project management system for coordinating multiple AI coders (Claude Code desktop + mobile) alongside human developers—solving coordination problem that traditional tools (Jira, Linear) cannot address</li>
+        <li><strong>Achieved 40-50x Cost Efficiency:</strong> $100/day AI-augmented development vs. $3,600-4,800/day equivalent traditional team output</li>
+        <li><strong>Sustained 15-20 Story Points/Day:</strong> Personal velocity equivalent to 3-4 developers, with peak performance of 48 points/day (Oct 21, 2025: 7 P0 features, 56 files, 12,500+ lines shipped)</li>
+        <li><strong>Documented Mobile Integration Workflow:</strong> Enabled parallel development streams with zero merge conflicts, achieving 2.67 story points/hour sustained throughput</li>
+    </ul>
+
+    <h4>Signal: AI-Native Development Coordination Platform</h4>
+    <ul>
+        <li><strong>Story Points-Based Velocity Tracking:</strong> Replaced commit-count metrics (commit activity ≠ productivity in AI-augmented workflows)</li>
+        <li><strong>Session Quality Rating System:</strong> 5-dimension rubric (Productivity, Quality, Impact, Learning, Flow) enabling retrospective analysis and AI coder performance comparison</li>
+        <li><strong>Real-Time Kanban + Timeline View:</strong> Task status, effort estimation, risk factors, and blocking issue tracking optimized for AI coder context continuity</li>
+        <li><strong>Estimation Calibration:</strong> Improved forecast accuracy from ±100% variance to ±30% over 15 tasks through systematic retrospective analysis</li>
+    </ul>
+
+    <h4>Platform Architecture & Core Systems</h4>
+    <ul>
+        <li><strong>Multi-Tenant SaaS Architecture:</strong> Django/PostgreSQL/Redis/Celery with white-label deployment model supporting Organization → Region → Clinic → Patient hierarchy</li>
+        <li><strong>Dual-Revenue Payment Architecture:</strong> (1) Platform-managed capturing transaction economics, (2) Stripe Connect for organizational accounts earning 2-5% platform fee on $200-400 ARPU</li>
+        <li><strong>SOBER Score AI:</strong> Engagement-based risk detection algorithm with automated clinician escalation, reducing response time from 48 hours to 4 hours for at-risk patients</li>
+        <li><strong>TCPA Compliance Engine:</strong> Opt-out handling with audit trail, inbound message tracking, SMS receipt confirmation</li>
+        <li><strong>Automated Patient Lifecycle:</strong> Payment webhook → patient creation → course assignment → SMS delivery → SOBER Score tracking → risk alerting → clinician escalation</li>
+    </ul>
+
+    <h4>Infrastructure & DevOps Excellence</h4>
+    <ul>
+        <li><strong>GitHub Actions CI/CD Pipeline:</strong> Automated migrations, pre-commit hooks (Black/Flake8/Bandit), zero-downtime deployments to Azure App Service</li>
+        <li><strong>Application Insights Monitoring:</strong> Custom KQL queries for webhook volume analysis, patient engagement funnels, proactive system health alerts</li>
+        <li><strong>Architecture Documentation:</strong> 23 Architecture Decision Records documenting security posture, payment architecture, AI workflow integration—eliminating "CTO as single point of failure" risk</li>
+        <li><strong>Infrastructure Optimization:</strong> Redis Labs free tier (30MB, 150K user capacity), Azure App Service Basic tier—total &lt;$500/month pre-revenue</li>
+    </ul>
+
+    <div class="tech-stack">
+        <strong>Tech Stack:</strong> Django 5.1, Python 3.12, PostgreSQL (Azure Database), Redis Labs, Celery Beat/Worker, Astro, Tailwind CSS, HTMX, Azure App Service, GitHub Actions, Application Insights, Twilio API, django-allauth SSO, PCI-DSS SAQ-A compliance
+    </div>
+
+    <div class="metrics">
+        <strong>Metrics & Performance:</strong> 80-100 story points/week sustained over 10 weeks (200+ total) | Zero production incidents on custom Django/PostgreSQL platform since launch | &lt;5 minute mean time to detection | 95%+ uptime | Migrated from vendor platform (GoHighLevel) to custom Django for code ownership | 10 weeks inception to production | Successfully managed 3 parallel development streams with zero merge conflicts
+    </div>
+</div>
+
+<hr>
+
+<!-- Independent Consulting -->
+<div class="job-entry">
+    <div class="job-header">
+        <div class="job-title">Independent Consulting & Fractional CTO Work</div>
+        <div class="job-meta">2025 – Present | Nashville, TN (Remote)</div>
+    </div>
+
+    <div class="job-description">
+        Following departure from i3 Verticals (September 2024), launched consulting practice alongside Orbiit Recovery co-founder role. Over the past year (October 2024 – Present), sustained high-velocity output across multiple simultaneous initiatives including startup platform development, fractional CTO work, AI assessment tool, weekly podcast production, and 10+ website launches.
+    </div>
+
+    <h4>College Decoded | Fractional CTO (2025 – Present)</h4>
+    <ul>
+        <li>Strategic technology leadership for education technology platform helping students navigate college admissions and financial aid processes</li>
+        <li>Advised on platform architecture and technology stack decisions for scalable SaaS deployment</li>
+        <li>Guided technical due diligence for integration partnerships and data exchange protocols</li>
+        <li>Mentored development team on modern web application best practices and CI/CD workflows</li>
+    </ul>
+
+    <h4>Accelerating Humans Podcast | Co-Host & Technical Lead (2025 – Present)</h4>
+    <ul>
+        <li><strong>Weekly podcast exploring contemporary AI issues and remaining human in an AI world</strong></li>
+        <li><strong>11 episodes published</strong> (YouTube, Spotify, Apple Podcasts), 2 in production, 20-40 minute format, published every Thursday</li>
+        <li><strong>Co-host & technical guru:</strong> Partner handles production; Bert builds sites, tools, and pages</li>
+        <li><strong>Key Differentiator #1:</strong> AI-generated dedicated page for each podcast episode with show notes, resources, and key takeaways</li>
+        <li><strong>Key Differentiator #2:</strong> Immediately implementable tools created for each episode—listeners can use AI-powered utilities alongside content</li>
+        <li>Topics: AI adoption, organizational change, human-AI collaboration, staying grounded in rapidly changing technology landscape</li>
+        <li>Platform: <a href="https://acceleratinghumans.com">acceleratinghumans.com</a> (Cloudflare)</li>
+    </ul>
+
+    <h4>AI Archetypes Assessment | Principal Developer (2025 – Present)</h4>
+    <ul>
+        <li>Rapid prototype built with fly.io + FastAPI + SQLite helping teams determine AI adoption readiness</li>
+        <li>Research-backed assessment identifying organizational readiness, fears, and opportunities</li>
+        <li>Strategic AI adoption consulting for healthcare, education, professional services</li>
+        <li>Currently being revamped for production deployment using Django/PostgreSQL/Azure stack</li>
+        <li><strong>Development Approach:</strong> Two-stage methodology—rapid prototypes with fly.io/FastAPI/SQLite or Netlify for proof-of-concept, then production migration to Django/Azure/PostgreSQL for scale and enterprise requirements</li>
+    </ul>
+
+    <h4>Speaking Engagements</h4>
+    <ul>
+        <li><strong>BA Development Days (BADD) - Multi-Chapter IIBA Event (2025):</strong> Delivered paid speaking engagements at collaborative event sponsored by 9 IIBA chapters on AI-augmented business analysis workflows, translating technical complexity into executive decision-making frameworks, and managing distributed teams across remote and hybrid environments</li>
+    </ul>
+
+    <h4>Substance Use Disorder Foundation (SUDF) | Co-Founder & Standards Developer (2025 – Present)</h4>
+    <ul>
+        <li><strong>Co-founded and created industry certification standard for digital recovery programs</strong> (comparable to IIBA establishing professional standards for Business Analysis)</li>
+        <li><strong>Digital Recovery Standard (DRS) Certification:</strong> 100-point evaluation framework across 5 categories:</li>
+        <ul style="margin-left: 1rem; margin-top: 0.15rem;">
+            <li>Regulatory Compliance (26 points) – HIPAA, 42 CFR Part 2, state regulations, data privacy</li>
+            <li>Clinical Excellence (26 points) – Evidence-based practices, clinical protocols, crisis management, staff credentials</li>
+            <li>Technology Security (22 points) – Infrastructure, encryption, access controls, incident response</li>
+            <li>Peer Support (16 points) – Community moderation, specialist training, user safety</li>
+            <li>User Experience (10 points) – Accessibility and person-centered design</li>
+        </ul>
+        <li><strong>Three certification tiers:</strong> Recognized ($5K-$8K, 12 months), Certified ($15K-$25K, 18 months), Accredited ($30K-$50K, 24 months)—revenue-generating certification body</li>
+        <li><strong>70% overlap with SOC 2 Type II and HITRUST</strong> requirements while focusing on what matters most: clinical quality and patient safety</li>
+        <li><strong>8-10 week assessment timeline:</strong> Documentation review, security assessment, clinical evaluation, platform testing</li>
+        <li>Demonstrates regulatory expertise (HIPAA, 42 CFR Part 2) and establishes market positioning through professional credibility standards</li>
+        <li>Platform: <a href="https://sudf.us">sudf.us</a> / <a href="https://recoveryecosystem.ai">recoveryecosystem.ai</a></li>
+    </ul>
+
+    <h4>Recent Projects & Thought Leadership</h4>
+    <ul>
+        <li><a href="https://acceleratinghumans.com">acceleratinghumans.com</a> (Cloudflare) - Weekly podcast (11 episodes) + AI Archetypes Assessment rapid prototype (fly.io + FastAPI)</li>
+        <li><a href="https://thementalstack.com">thementalstack.com</a> - Writing on cognitive load, system design, and clarity in technology leadership</li>
+        <li><strong>10+ websites total</strong> launched supporting consulting, thought leadership, SUDF certification framework, and project exploration</li>
+        <li><strong>Rapid Prototyping → Production Pattern:</strong> Consistently use fly.io/FastAPI/SQLite or Netlify for proof-of-concept validation, then migrate successful projects to Django/Azure/PostgreSQL for production scale</li>
+    </ul>
+</div>
+
+<hr>
+
+<!-- i3 Verticals -->
+<div class="job-entry">
+    <div class="job-header">
+        <div class="job-title"><span class="job-company">i3 Verticals</span> | Nashville, TN</div>
+        <div class="job-meta">January 2020 – September 2024 | $370M revenue publicly traded payment solutions company (NASDAQ: IIIV)</div>
+    </div>
+
+    <h4>Manager, IT Service Delivery (January 2024 – September 2024)</h4>
+    <div class="job-description">
+        Corporate IT Manager with responsibilities across IT, Corporate Finance, Payment Card Industry, Healthcare, Compliance, Government, Non-Profit, and Education verticals.
+    </div>
+    <ul>
+        <li><strong>Product Owner for Atlassian Products:</strong> Managed team of Jira Administrators for Jira, JSM, Confluence, Atlas governance across development teams (onshore + offshore)</li>
+        <li><strong>Business Systems Leadership:</strong> Identified, vetted, procured, and deployed business systems improving operational efficiency</li>
+        <li><strong>Vendor Relations & Negotiations:</strong> Managed vendor relationships and contract negotiations for assigned business systems</li>
+        <li><strong>IT Time Reporting:</strong> Led capitalization tracking for Software Development time reporting across multiple teams</li>
+    </ul>
+
+    <h4>Manager, Business Analysis (January 2022 – January 2024)</h4>
+    <div class="job-description">
+        Led team of Business Analysts assisting product teams across multiple company verticals in defining and ordering work.
+    </div>
+    <ul>
+        <li><strong>Business Case Standardization:</strong> Created processes, templates, and documentation for C-level executive project approval, bringing data-centric approach to project evaluation</li>
+        <li><strong>Healthcare Revenue Cycle Management:</strong> Participated in "triage" workshops improving RCM performance and facilitated data-driven business case generation</li>
+        <li><strong>Cross-Functional Process Mapping:</strong> Led workshops modeling payment processes, identifying risks and opportunities for improvement</li>
+        <li><strong>PayFac/MOR Portfolio Management:</strong> Worked with teams to improve Risk, Underwriting, Residual Calculation, Merchant Servicing, Reporting, Customer Service, Documentation, and Compliance operations</li>
+        <li><strong>Large Portfolio Migrations:</strong> Oversaw analysis and process mapping for &gt;$1B portfolio migrations between processors</li>
+        <li><strong>IT Governance Framework:</strong> Partnered with VP of PMO to develop and implement IT governance framework and project management policies</li>
+    </ul>
+
+    <h4>Business Analyst (January 2020 – January 2022)</h4>
+    <div class="job-description">
+        Corporate Business Analyst with broad responsibilities across Government, Payment Card Industry, Healthcare, IT, Non-Profit, Education, and Compliance verticals.
+    </div>
+    <ul>
+        <li>Led and mentored BA team, defining corporate IT and project management policy</li>
+        <li>Documented processes, tools, and templates for BA team standardization</li>
+        <li>Assisted with interviewing and hiring for Corporate IT positions</li>
+        <li>Trained Product Owners in Jira and Confluence usage aligned with PMO process</li>
+        <li>Collaborated with C-level executives establishing and prioritizing IT development roadmap</li>
+    </ul>
+</div>
+
+<hr>
+
+<!-- Fresenius -->
+<div class="job-entry">
+    <div class="job-header">
+        <div class="job-title"><span class="job-company">Fresenius Medical Care</span> | Atlanta, GA & Franklin, TN</div>
+        <div class="job-meta">February 2014 – October 2019 | $13B revenue publicly traded healthcare company (NYSE: FMS)</div>
+    </div>
+
+    <h4>Business Systems Analyst (Corporate Revenue Cycle) (December 2015 – October 2019)</h4>
+    <div class="job-description">
+        Promoted to Corporate level to scale regional projects across all Billing Groups / Revenue Centers, Centers of Excellence, and Teams.
+    </div>
+    <ul>
+        <li><strong>SharePoint Enterprise Management:</strong> Managed end user side of SharePoint installations for Corporate AR and 5 Revenue Centers billing and collecting <strong>$2.17 billion</strong> in healthcare receivables</li>
+        <li><strong>SharePoint 2010 → Online Migration:</strong> Coordinated migration for thousands of users, hundreds of sites, large amounts of workflow and data for critical processes—functioned as point person communicating with all management levels</li>
+        <li><strong>Cross-Functional Project Delivery:</strong> Worked with teams including IT, Social Workers, Financial Coordinators, Clinics, Patient Admissions Services, Pharmacy, Strategic Operational Support, and Coding</li>
+        <li><strong>National Program Deployment:</strong> Expanded American Kidney Fund project from regional to national deployment, scaling to meet requirements of multiple Directors with different business processes</li>
+        <li><strong>Workflow Automation:</strong> Created SharePoint Lists eliminating shared Excel documents, automating tasks and eliminating tens of thousands of emails from Revenue Center processes</li>
+        <li><strong>Performance Dashboards & KPIs:</strong> Provided scorecards and real-time analytics to management for data-driven decision-making</li>
+        <li><strong>Medicare Coordination of Benefits:</strong> Worked with Policy and Procedures team creating uniform Verifications of Benefits form used by all Revenue Centers, preventing void/rebill situations causing write-offs</li>
+    </ul>
+
+    <h4>Earlier Roles (2014-2015)</h4>
+    <ul>
+        <li>Billing Group Analyst (April 2015 – December 2015)</li>
+        <li>Senior Patient Account Representative / Analyst (February 2014 – March 2015)</li>
+    </ul>
+</div>
+
+<!-- EDUCATION -->
+<h2>Education</h2>
+
+<div class="education-item">
+    <div class="degree">Bachelor of Business Administration (BBA), Accounting</div>
+    <div class="institution">Georgia Southern University - College of Business Administration</div>
+    <div class="honor">Bell Honors Program Scholarship recipient (Academic Scholarship limited to 18 students/year)</div>
+</div>
+
+<!-- PROFESSIONAL AFFILIATIONS -->
+<h2>Professional Affiliations & Leadership</h2>
+
+<div class="affiliation">
+    <span class="affiliation-org">International Institute of Business Analysis (IIBA)</span><br>
+    VP of Technology, Nashville Chapter (2022 – Present) | Member since 2020 | Paid speaker at BA Development Days (sponsored by 9 IIBA chapters)
+</div>
+
+<!-- TECHNICAL PROFICIENCIES -->
+<h2>Technical Proficiencies</h2>
+
+<div class="skills-grid">
+    <div class="skill-category">
+        <span class="skill-label">Languages & Frameworks:</span>
+        <div class="skill-items">Python (Django, FastAPI), JavaScript (Astro, HTMX, React), SQL (PostgreSQL, SQL Server)</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Cloud & Infrastructure:</span>
+        <div class="skill-items">Azure (App Service, Database, Application Insights), GitHub Actions, Docker</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Development Tools:</span>
+        <div class="skill-items">Git, VS Code, Claude Code, GitHub, Jira, Confluence</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Business Intelligence:</span>
+        <div class="skill-items">Power BI, Excel (Advanced), SQL Analytics</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Project Management:</span>
+        <div class="skill-items">Signal (proprietary), Jira, Confluence, Atlas, JSM</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Payment Systems:</span>
+        <div class="skill-items">Stripe (Checkout, Connect), Wix Payments, Klarna, Afterpay, Twilio</div>
+    </div>
+
+    <div class="skill-category">
+        <span class="skill-label">Compliance & Security:</span>
+        <div class="skill-items">HIPAA, PCI-DSS, TCPA, SOC 2, HITRUST, django-allauth, OAuth 2.0</div>
+    </div>
+</div>
+
+<!-- AWARDS & RECOGNITION -->
+<h2>Awards & Recognition</h2>
+
+<ul class="awards">
+    <li><strong>Eagle Scout:</strong> Boy Scouts of America</li>
+    <li><strong>Bell Honors Program Scholarship:</strong> Georgia Southern University (limited to 18 students/year)</li>
+</ul>
+
+<!-- KEY COMPETENCIES -->
+<h2>Key Competencies</h2>
+
+<div class="competencies">
+    <div class="competency-item">
+        <span class="competency-label">Technical Leadership:</span>
+        <span class="competency-details">AI-native development methodology, system architecture, multi-tenant SaaS, payment systems integration, HIPAA/PCI compliance</span>
+    </div>
+
+    <div class="competency-item">
+        <span class="competency-label">Strategic Execution:</span>
+        <span class="competency-details">Capital efficiency optimization, rapid prototyping, ADR documentation discipline, technical debt management, exit-ready documentation</span>
+    </div>
+
+    <div class="competency-item">
+        <span class="competency-label">Team & Process Management:</span>
+        <span class="competency-details">Distributed team coordination (human + AI), Agile/Scrum methodologies, business analysis, change management, vendor negotiations</span>
+    </div>
+
+    <div class="competency-item">
+        <span class="competency-label">Cross-Functional Collaboration:</span>
+        <span class="competency-details">C-suite stakeholder management, business case development, cross-functional workshop facilitation, technical translation for non-technical audiences</span>
+    </div>
+
+    <div class="competency-item">
+        <span class="competency-label">Industry Expertise:</span>
+        <span class="competency-details">Healthcare (Revenue Cycle Management, HIPAA), Behavioral Health, Payment Card Industry (PCI-DSS), Public Sector, Education, Non-Profit</span>
+    </div>
+</div>
+
+</body>
+</html>
