@@ -661,8 +661,78 @@ gantt
 
 ---
 
-**Ask the Human LLC**  
-426 Maplegrove Drive  
-Franklin, TN 37064  
-United States  
+**Ask the Human LLC**
+426 Maplegrove Drive
+Franklin, TN 37064
+United States
 bert@askthehuman.com
+
+---
+
+## ADDENDUM: Proposal Extension to Q1 2026
+
+**Date:** November 5, 2025
+**Status:** Extended Pending Client's 2026 Budget Allocation
+
+### Email Exchange
+
+**From:** Chad Colony (TrussPoint)
+**Date:** October 31, 2025, 12:40 PM
+**To:** Bert Carroll, Wes, Bill, ms@planleft.com
+
+> Hi Bert,
+>
+> Sorry for the delayed response. I spoke to our PE group and we are going to put a pin in this project for now. We simply have too many other things happening as it relates to acquisitions. However, I will allocate money into the '26 budget and find the best way to work together as we want to partner with your many talents.
+>
+> Thank you!
+
+---
+
+**From:** Bert Carroll (Ask the Human)
+**Date:** November 5, 2025, 5:44 PM
+**To:** Chad Colony, Wes, Bill, ms@planleft.com
+
+> Hi Chad,
+>
+> Thank you for the update and for securing budget for 2026 - I appreciate the commitment to partnering.
+>
+> I'll keep the quote on file and extend it through Q1 2026. We can revisit timing and scope as your acquisition plans solidify.
+>
+> In the meantime, if any AI-related needs come up that could streamline your current acquisition process or due diligence workflows, I'd be happy to explore quick-win opportunities. Sometimes smaller projects can deliver immediate value while we plan the larger engagement.
+>
+> Looking forward to working together in 2026.
+>
+> Best,
+>
+> Bert Carroll
+> The Human | Ask the Human
+> Builder of AI-driven solutions
+>
+> askthehuman.com | bert@askthehuman.com | 770-605-5410
+> Accelerating Humans Podcast: acceleratinghumans.com
+
+---
+
+### Extension Terms
+
+- **Original Proposal Date:** October 13, 2025
+- **Extended Valid Through:** March 31, 2026 (Q1 2026)
+- **Rate Schedule:** Remains unchanged at $8,000/month retainer structure
+- **Scope:** As originally proposed, subject to Phase 1 discovery findings
+- **Notes:**
+  - Client has confirmed budget allocation for 2026
+  - Engagement timing to be determined based on client's acquisition activity
+  - Open to smaller tactical projects during interim period
+  - Scope and timeline subject to re-evaluation if market conditions change significantly
+
+---
+
+### Contact for Reactivation
+
+When ready to proceed in 2026, contact:
+
+**Bert Carroll**
+bert@askthehuman.com
+770-605-5410
+
+**Follow-up planned with:** TrussPoint CTO (separate backend conversation)
